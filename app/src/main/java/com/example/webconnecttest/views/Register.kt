@@ -19,6 +19,7 @@ class Register : AppCompatActivity() {
         private const val REGISTER_TIME_OUT = 3000
     }
 
+    //
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
